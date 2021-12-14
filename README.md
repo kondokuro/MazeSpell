@@ -26,10 +26,12 @@ Connect only two areas, representation of doors, gates, etc.
 - Can be extended to hold status like locked, blocked, etc.
  
 ### Halls
-The collection of areas, representing a type of path where the navegator would start and end.
+Representing a type of path where the navegator would start and end.
 - Contains a list of areas
-- Can be extended to hold
+- Can be extended to represent different types of paths, for example those with access to an entrance and exit or branching paths
 
 ### The Maze
-Holding all the data of the inner structures
+Holding all the data of the inner structures.
+- Lists of halls
+- Lists of specia areas (entrances, exists, warps, etc)
 
